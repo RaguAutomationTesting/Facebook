@@ -52,8 +52,8 @@ public class ForgottenPasswordSteps extends BaseClass {
 	public void user_sees_the_search_results_based_on_mailid() {
 		f = new ForgottenPasswordPageObjects();
 
-//		verifyPresenceOfAndElement(f.getMsgForInvalidMailSearch(),
-//				"Expected error message is not displayed for invalid mail search ");
+verifyPresenceOfAndElement(f.getMsgForInvalidMailSearch(),
+"Expected error message is not displayed for invalid mail search ");
 		
 		verifyFalse(f.getMsgForInvalidMailSearch(), "Expected error msg is Displayed");
 	}
