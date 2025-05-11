@@ -11,6 +11,8 @@ public class HomePageObjects extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
+	//submaster1 la 1st changes
+	
 	@FindBy(xpath = "//span[text()='Ranjith Kumar']")
 	private WebElement txtHomePage;
 
