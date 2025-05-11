@@ -10,6 +10,8 @@ public class LoginPageObjects extends BaseClass {
 	public LoginPageObjects() {
 		PageFactory.initElements(driver, this);
 	}
+	
+	// just checkinfg for guhub worinj
 
 	@FindBy(id = "email")
 	private WebElement txtEmail;
